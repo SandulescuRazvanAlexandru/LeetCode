@@ -1,0 +1,2 @@
+D:\IDEs\Visual-Studio-2022\LeetCode\Project1\x64\Debug\Project1.exe
+C:\Users\Razvan\Desktop\GitHub\LeetCode\LeetCode\Plus One\x64\Debug\Project1.exe
