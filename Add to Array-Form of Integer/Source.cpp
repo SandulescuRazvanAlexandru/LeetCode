@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    std::vector<int> addToArrayForm(std::vector<int>& num, int k) {
+    vector<int> addToArrayForm(vector<int>& num, int k) {
         int n = num.size();
         int p = 0, cop = k;
         while (cop) {
@@ -13,7 +13,7 @@ public:
             cop /= 10;
         }
         int maxLength = n + p; // Maximum length after addition could be n + p
-        std::vector<int> tempResult(maxLength, 0);
+        vector<int> tempResult(maxLength, 0);
         int carry = 0, sum = 0;
 
         int i = n - 1, j = maxLength - 1;
@@ -52,7 +52,7 @@ public:
 
         // Copy the result into the final result array
         int resultSize = maxLength - start;
-        std::vector<int> result(resultSize);
+        vector<int> result(resultSize);
         for (int i = 0; i < resultSize; ++i) {
             result[i] = tempResult[i + start];
         }
